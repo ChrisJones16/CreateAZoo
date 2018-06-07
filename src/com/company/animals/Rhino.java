@@ -1,4 +1,4 @@
-package com.company;
+package com.company.animals;
 
 public class Rhino extends Animal {
 

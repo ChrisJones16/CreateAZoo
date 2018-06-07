@@ -1,4 +1,4 @@
-package com.company;
+package com.company.animals;
 
 public class Rabbit extends Animal {
 
@@ -32,5 +32,5 @@ public class Rabbit extends Animal {
 
     public void setFavoriteFood(String favoriteFood) {
         this.favoriteFood = favoriteFood;
-    } 
+    }
 }
