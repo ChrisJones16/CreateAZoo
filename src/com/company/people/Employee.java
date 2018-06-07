@@ -1,14 +1,15 @@
 package com.company.people;
 
-public class Employees extends People {
+public class Employee extends People {
 
+    //private so its can't be accessed
     private int employeeNumber;
     private String jobTitle;
     private String hireDate;
     private int hours;
 
 
-    public Employees(int age, String name, char gender, String race, int employeeNumber, String jobTitle, String hireDate) {
+    public Employee(int age, String name, char gender, String race, int employeeNumber, String jobTitle, String hireDate) {
         super(age, name, gender, race);
         this.employeeNumber = employeeNumber;
         this.jobTitle = jobTitle;
@@ -17,10 +18,6 @@ public class Employees extends People {
 
     public int getEmployeeNumber() {
         return employeeNumber;
-    }
-
-    public void setEmployeeNumber(int employeeNumber) {
-        this.employeeNumber = employeeNumber;
     }
 
     public String getJobTitle() {
@@ -33,10 +30,6 @@ public class Employees extends People {
 
     public String getHireDate() {
         return hireDate;
-    }
-
-    public void setHireDate(String hireDate) {
-        this.hireDate = hireDate;
     }
 
     public int getHours() {
