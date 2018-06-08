@@ -6,7 +6,7 @@ public class Main {
 
         System.out.println("Welcome to the Online Zoo!");
 
-        Menu menu = new Menu();
-        menu.mainMenu();
+        Menu menu = new Menu(); //created object menu
+        menu.mainMenu(); //created method
     }
 }
