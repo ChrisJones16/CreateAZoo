@@ -179,6 +179,8 @@ public class PeopleMenu {
             Employee newEmployee = new Employee(employeeAge, employeeName, employeeGender, employeeRace, employeeNumber,
              employeeJobTitle, employeeHireDate);
 
+            //TODO Add Employee to Employee List
+
         } else if (location == 2) {
 
             System.out.println("What is the visitor's age?");
